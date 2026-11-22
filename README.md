@@ -51,7 +51,7 @@ Para asegurar el cumplimiento del SLA tras la optimización, se integra **observ
 
 ## 3. Auditoría Focalizada: Sesgos y Fairness (Dimensión Ética y Cumplimiento)
 
-Siguiendo la directriz docente de profundizar en un solo eje de auditoría, este análisis se enfoca en la **Auditoría de Sesgos y Fairness en Producción**. Esta elección responde directamente al hallazgo crítico de la Fase II: debido al desbalanceo extremo del dataset de Kaggle (**99.8% transacciones legítimas**), incluso una transacción anómala de $3,500 USD con variables PCA extremas fue clasificada como `"Legitima"` (con solo `0.059%` de confianza de fraude frente a `0.029%` en el caso base).
+Enfocàndonos en un solo aspecto de una posible auditoría, este análisis se enfoca en la **Auditoría de Sesgos y Fairness en Producción**. Esta elección responde directamente al hallazgo crítico de la Fase II: debido al desbalanceo extremo del dataset de Kaggle (**99.8% transacciones legítimas**), incluso una transacción anómala de $3,500 USD con variables PCA extremas fue clasificada como `"Legitima"` (con solo `0.059%` de confianza de fraude frente a `0.029%` en el caso base).
 
 ### Marco Normativo y Clasificación de Riesgo
 * **EU AI Act (Reglamento UE 2024/1689):** Al operar en el sector financiero (detección de fraude y bloqueo de medios de pago), el sistema se clasifica como de **Alto Riesgo**. Esto exige gestión continua de riesgos, gobernanza y calidad de datos, trazabilidad, documentación técnica y supervisión humana (*human-in-the-loop*).
